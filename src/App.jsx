@@ -12,7 +12,7 @@ function App() {
  
  
   return (
-    <>
+    <main className="overflow-y-auto">
       <Navbar/>
       <Hero/>
       <Highlights/>
@@ -20,7 +20,7 @@ function App() {
       <Features/>
       <Chip/>
       <Footer/>
-    </>
+    </main>
   )
 }
 
